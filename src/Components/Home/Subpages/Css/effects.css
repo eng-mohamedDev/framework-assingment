@@ -1,0 +1,37 @@
+.star::after {
+  content: "";
+  position: absolute;
+  left: 50px;
+  top: 50%;
+  width: 100px;
+  height: 4px;
+  background-color: #fff;
+}
+.star::before {
+  content: "";
+  position: absolute;
+  right: 50px;
+  top: 50%;
+  width: 100px;
+  height: 4px;
+  background-color: #fff;
+}
+
+.star-dark::after {
+  content: "";
+  position: absolute;
+  left: 50px;
+  top: 50%;
+  width: 100px;
+  height: 4px;
+  background-color: #000;
+}
+.star-dark::before {
+  content: "";
+  position: absolute;
+  right: 50px;
+  top: 50%;
+  width: 100px;
+  height: 4px;
+  background-color: #000;
+}
